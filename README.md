@@ -56,12 +56,19 @@ Builds a real-time inventory and cost report using pandas, including VM counts, 
 **Example Usage**
 
 import azure_inventory_manager as aim
+
 aim.add_vm("VM001", "prod-web-01", "rg-production", "running", "East US", 150.00)
+
 aim.get_vm("VM001")
+
 aim.queue_status_update("VM001", "stopped")
+
 aim.process_status_update()
+
 aim.add_alert(1, "VM001", "Cost threshold exceeded")
+
 aim.process_alert()
+
 aim.generate_cost_report()
 
 
