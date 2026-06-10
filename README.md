@@ -1,0 +1,1 @@
+# Azure-Inventory-Manager
