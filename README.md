@@ -8,15 +8,6 @@
 - heapq (priority-based alert management)
 
 
-**Data Structures Used**
-
-Data Structure	Implementation	Why I Used It
-Hash Table	Python Dictionary	Fast VM lookups and status updates
-Queue	collections.deque	Processes status updates in the order they’re received
-Priority Queue	heapq	Keeps critical alerts at the top of the queue
-DataFrame	pandas	Generates inventory and cost reports
-
-
 **Core Functions**
 
 add_vm()
