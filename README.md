@@ -50,7 +50,7 @@ Builds a real-time inventory and cost report using pandas, including VM counts, 
 - git clone https://github.com/TheDevOpsDiva/azure-inventory-manager.git
 - cd azure-inventory-manager
 - pip install pandas
-- python3 azure_inventory_manager.py
+- python3 azure inventory manager.py
 
 
 **Example Usage**
